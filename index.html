@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title> Siam Ur Rahman | SEO Specialist</title>
+<title>Siam UR Rahman | SEO Specialist</title>
 
 <link rel="stylesheet" href="style.css">
 
@@ -16,7 +17,7 @@
 
 <header>
 
-<h2 class="logo">Siam Ur Rahman</h2>
+<h2 class="logo">Siam UR Rahman</h2>
 
 <nav>
 
@@ -25,26 +26,27 @@
 <a href="#projects">Projects</a>
 <a href="#hire">Hire Me</a>
 
-<a href="#hire" class="btn">Start Project</a>
+<a href="#" class="start-btn" onclick="openForm()">Start Project</a>
 
 </nav>
 
 </header>
 
 
+
 <!-- HERO -->
 
 <section class="hero">
 
-<div class="hero-content">
+<div class="hero-text">
 
 <h1>SEO Specialist</h1>
 
 <p>
-Helping businesses grow organic traffic and rank higher on Google.
+Helping businesses grow organic traffic and dominate Google rankings.
 </p>
 
-<a href="#hire" class="cta">Start Your Project</a>
+<button onclick="openForm()">Start Your Project</button>
 
 </div>
 
@@ -82,11 +84,11 @@ I help businesses increase search visibility and organic traffic.
 
 <div class="card">
 
-<img src="https://mettevo.com/_next/image?url=https%3A%2F%2Fstage.mettevo.com%2Fwp-content%2Fuploads%2F2025%2F10%2F1-What-Is-an-SEO-Specialist_-Role-Meaning-and-What-They-Do.jpg&w=1920&q=75">
+<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71">
 
 <h3>Keyword Research</h3>
 
-<p>Finding profitable keywords for better rankings.</p>
+<p>Finding profitable keywords for higher rankings.</p>
 
 </div>
 
@@ -108,7 +110,7 @@ I help businesses increase search visibility and organic traffic.
 
 <h3>Technical SEO</h3>
 
-<p>Fixing site speed, indexing and crawl issues.</p>
+<p>Fixing indexing and site speed issues.</p>
 
 </div>
 
@@ -184,7 +186,7 @@ I help businesses increase search visibility and organic traffic.
 
 <h2>Hire Me</h2>
 
-<p>You can hire me from these freelancing platforms</p>
+<p>You can hire me directly from these freelancing platforms</p>
 
 <div class="hire">
 
@@ -228,6 +230,33 @@ I help businesses increase search visibility and organic traffic.
 
 </footer>
 
+
+
+<!-- POPUP FORM -->
+
+<div class="form-popup" id="projectForm">
+
+<div class="form-box">
+
+<h3>Start Your SEO Project</h3>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Email Address">
+
+<input type="text" placeholder="WhatsApp Number">
+
+<button class="submit">Submit</button>
+
+<button class="close" onclick="closeForm()">Close</button>
+
+</div>
+
+</div>
+
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
