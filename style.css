@@ -8,10 +8,10 @@ font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
-background:#ffffff;
-color:#333;
 line-height:1.6;
+color:#333;
 }
+
 
 /* HEADER */
 
@@ -22,6 +22,10 @@ align-items:center;
 padding:20px 8%;
 background:#111;
 color:white;
+}
+
+.logo{
+font-size:22px;
 }
 
 nav a{
@@ -40,6 +44,7 @@ border-radius:5px;
 cursor:pointer;
 }
 
+
 /* HERO */
 
 .hero{
@@ -57,8 +62,8 @@ max-width:500px;
 }
 
 .hero-text h1{
-font-size:42px;
-margin-bottom:15px;
+font-size:40px;
+margin-bottom:10px;
 }
 
 .hero-text p{
@@ -70,15 +75,16 @@ background:#00c896;
 border:none;
 padding:12px 22px;
 color:white;
-border-radius:6px;
+border-radius:5px;
 cursor:pointer;
 }
 
 .hero-img img{
-width:420px;
+width:450px;
 max-width:100%;
 border-radius:10px;
 }
+
 
 /* SECTIONS */
 
@@ -88,9 +94,10 @@ text-align:center;
 }
 
 section h2{
-font-size:30px;
-margin-bottom:25px;
+margin-bottom:20px;
+font-size:28px;
 }
+
 
 /* SERVICES */
 
@@ -102,10 +109,11 @@ margin-top:30px;
 }
 
 .card{
-background:#f5f5f5;
+background:#f4f4f4;
 padding:25px;
 border-radius:8px;
 }
+
 
 /* PROJECTS */
 
@@ -117,10 +125,11 @@ margin-top:30px;
 }
 
 .project{
-background:#f5f5f5;
+background:#f4f4f4;
 padding:25px;
 border-radius:8px;
 }
+
 
 /* HIRE SECTION */
 
@@ -131,14 +140,21 @@ background:#f4f4f4;
 .hire-links{
 display:flex;
 justify-content:center;
-gap:50px;
+gap:40px;
 flex-wrap:wrap;
 margin-top:30px;
 }
 
-.hire-links img{
-width:65px;
+.hire-links a{
+text-decoration:none;
+color:black;
 }
+
+.hire-links img{
+width:70px;
+margin-bottom:10px;
+}
+
 
 /* FOOTER */
 
@@ -148,6 +164,7 @@ color:white;
 text-align:center;
 padding:20px;
 }
+
 
 /* FORM */
 
