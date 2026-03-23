@@ -9,7 +9,7 @@ This project showcases SEO services, case studies, and a project contact form fo
 
 You can view the live portfolio here:
 
-https://siaaamur.github.io/seo-specialist-portfolio
+[https://siaaamur.github.io/seo-specialist-portfolio](https://siaaamur.github.io/SEOSpecialist/)
 
 ---
 
